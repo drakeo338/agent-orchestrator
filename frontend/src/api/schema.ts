@@ -2925,6 +2925,8 @@ export interface components {
             id: string;
             isDefault?: boolean;
             label: string;
+            /** Format: date-time */
+            lastUsedAt?: null | string;
             provider?: string;
         };
         AgentModelsResponse: {
